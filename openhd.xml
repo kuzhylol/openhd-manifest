@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="openembedded" fetch="git://git.openembedded.org/" />
+  <remote name="yocto" fetch="git://git.yoctoproject.org/" />
+  <remote name="github" fetch="https://github.com/" />
+
+  <project name="poky" remote="yocto" revision="scarthgap" path="poky" />
+  <project name="meta-openembedded" remote="openembedded" revision="scarthgap" path="meta-openembedded" />
+  <project name="meta-raspberrypi" remote="yocto" revision="scarthgap" path="meta-raspberrypi" />
+  <project name="OpenHD/meta-openhd" remote="github" revision="main" path="meta-openhd" />
+</manifest>

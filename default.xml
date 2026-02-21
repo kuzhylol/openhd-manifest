@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="yocto" fetch="ssh://git@git.yoctoproject.org/" />
+  <remote name="github" fetch="ssh://git@github.com/" />
+  <default remote="yocto" revision="scarthgap" sync-j="4" />
+
+  <project name="poky" remote="yocto" revision="scarthgap" path="poky" />
+  <project name="meta-raspberrypi" remote="yocto" revision="scarthgap" path="layers/meta-raspberrypi" />
+  <project name="OpenHD/meta-openhd" remote="github" revision="main" path="layers/meta-openhd" />
+</manifest>

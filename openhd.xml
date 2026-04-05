@@ -9,4 +9,5 @@
   <project name="meta-raspberrypi" remote="yocto" revision="walnascar" path="meta-raspberrypi" />
   <project name="kuzhylol/meta-openhd" remote="github" revision="walnascar" path="meta-openhd" />
   <project name="kuzhylol/meta-streaming" remote="github" revision="walnascar" path="meta-streaming" />
+  <project name="meta-qt5/meta-qt5.git" remote="github" revision="walnascar" path="meta-qt5" />
 </manifest>
